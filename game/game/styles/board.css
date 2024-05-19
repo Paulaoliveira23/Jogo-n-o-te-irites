@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: none;
+  width: 750px;
+  height: 650px;
+  z-index: 1;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.mid {
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  width: 266px;
+  height: 266px;
+}
+
+.home-reduce {
+  width: 266px;
+  height: 246px;
+}
+
+.board-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 218px;
+  height: 266px;
+  background-color: bisque;
+  gap: 2px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: space-between;
+  width: 266px;
+  height: 200px;
+  background-color: bisque;
+}
+
+.board-row-left-reduce {
+  margin-right: -50px;
+  z-index: -10;
+}
+
+.board-row-right-reduce {
+  margin-left: -54px;
+  z-index: -10;
+}
+
+.bring-up {
+  margin-top: -27px;
+}
+
+.center {
+  width: 165px;
+  height: 148px;
+  background-color: white;
+  -webkit-box-shadow: inset -4px 2px 47px 37px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: inset -4px 2px 47px 37px rgba(0, 0, 0, 0.34);
+  box-shadow: inset -4px 2px 47px 37px rgba(0, 0, 0, 0.34);
+}
+
+.cell-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cell-container-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border: 1px dashed rgb(203, 203, 203);
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 46px -19px rgba(117, 117, 117, 1);
+  -moz-box-shadow: 10px 10px 46px -19px rgba(117, 117, 117, 1);
+  box-shadow: 10px 10px 46px -19px rgba(117, 117, 117, 1);
+}
+
+.cell-inside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 25px;
+  background-color: azure;
+  border: 1px solid gray;
+}
+
+.cell-inside-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 50px;
+  background-color: azure;
+  border: 1px solid gray;
+}
+
+.cell-inside-row-ficha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 142px;
+  background-color: azure;
+  border: 1px solid gray;
+}
+
+.cell-inside-ficha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 142px;
+  height: 25px;
+  background-color: azure;
+  border: 1px solid gray;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: rgb(177, 177, 255);
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}

@@ -1,0 +1,102 @@
+/* game */
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 2.5s ease;
+}
+
+.player-number-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.set-player-symbol-container {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.set-player-symbol {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@keyframes fade-out {
+  100% {
+    opacity: 1;
+    display: flex;
+  }
+}
+
+.player-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  text-decoration: double;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  border: 1px solid gray;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(200, 208, 231) 3.2px 3.2px 8px 0px inset,
+    rgb(255, 255, 255) -3.2px -3.2px 8px 0px inset;
+}
+
+.player-number-selected {
+  background-color: rgb(62, 137, 235);
+  color: white;
+}
+
+.player-number:hover {
+  background-color: rgb(143, 183, 237);
+}
+
+.player-name-input {
+  width: 150px;
+  height: 40px;
+  font-size: large;
+  text-align: center;
+  background-color: rgb(229, 229, 229);
+  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+  border-radius: 6px;
+}
+
+.logo-min {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  transition: all 0.2s ease;
+}
+
+.logo-min:hover {
+  scale: 1.2;
+}
+
+.start-game-btn {
+  padding: 4px 10px;
+  border-radius: 6px;
+  outline: none;
+}
